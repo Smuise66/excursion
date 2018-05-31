@@ -1,19 +1,42 @@
+body {
+  align-content: center;
+  background-color: Black;
+}
 h1 {
   font-family: Verdana;
   font-weight: Normal;
   font-size: 50px;
   color: White;
-  align-content: center;
+  text-align: center;
 }
 h2 {
-
-}
-h3 {
-
+  font-family: Verdana;
+  font-weight: 300;
+  font-size: 42px;
+  color: White;
+  text-align: center;
 }
 p {
-
+  font-family: Verdana;
+  font-size: 21px;
+  color: Gray;
+  font-weight: bold;
+}
+h4, a {
+  font-family: Verdana;
+  text-align: center;
+  color: Aquamarine;
+  font-size: 16px;
+}
+.sentences {
+  text-align: center;
 }
 .copyright {
-
+  text-align: right;
+  color: Gray;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
